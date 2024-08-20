@@ -6,57 +6,97 @@
 .texto {
     text-align: center;
     font-size: 30px;
+}
 
+.tituloHeader {
+    box-sizing: border-box;
+    padding-top: 60px;
+    color: #fefefe;
+    text-align: center;
+    font-size: 70px;
+}
+
+.tituloAside {
+    font-weight: bold;
 }
 
 .header, .footer {
     width: 100%;
-    height: 150px;
+    height: 160px;
 
+}
+.separacion {
+    margin: 25px;
 }
 
 .header {
-    background-color: #8a7070;
+    background-color:#000000;
 }
 
 .footer {
-    background-color: #4c3e3e;
+    background-color: #000000;
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(7,  1fr);
-    grid-template-rows: repeat(19,  1fr);
+    grid-template-rows: repeat(10,  1fr);
 }
 
-
 .aside {
-    background-color:#1d1717 ;
-    grid-row: 1 / 20; 
+    box-sizing: border-box;
+    padding: 70% 6% 6% 6%;
+    text-align: center;
+    color:#C0C0C0;
+    background-color: #1d1717;
+    grid-row: 1 / 11;
 }
 
 .section1 {
-    background-color: #736c6c;
+    box-sizing: border-box;
+    border-left: 6px #ffffff3f solid;
+    font-size: 17px;
+    text-align: center;
+    color:#fff;
+    font-family: "NunitoItalic";
+    background-color: transparent;
     grid-column: 2 / 8;
 }
 
+.textColorGreen {
+    color:#298b00 ;
+    font-weight: bold;
+}
+
 .section2 {
-    background-color: #897d7d;
-    grid-column: 2/4;
-    grid-row: 2/20;
+    background-color: #ffffff6f;
+    grid-column: 2 / 4;
+    grid-row: 2 / 11;
+}
+
+.itemsSubTitlesSection2 {
+    color:#000     ;
 }
 
 .section3 {
-    background-color: #552929;
-    grid-column: 4/8;
-    grid-row: 2/20;
+    border-top: 6px #000 solid;
+    background-color: #552929cc;
+    grid-column: 4 / 8;
+    grid-row: 2 / 11; 
+}
+
+.section3 video {
+    width: 100%; 
+    height: 50%; 
+    object-fit: cover; 
 }
 
 .section4and5 {
     background-color: #ffffff;
-    grid-column: 4/8;
-    grid-row: 11/20;
+    grid-column: 4 / 8;
+    grid-row: 6 / 11; 
 }
+
 
 .flex {
     display:flex;
@@ -68,17 +108,75 @@
 }
 
 .flex-section4 {
+    text-align: center;
+    box-sizing: border-box;
+    padding:  10px 10px 10px 20px;
     background-color: #4b3434;
 
 }
 
 .flex-section5 {
+    text-align: center;
+    box-sizing: border-box;
+    padding:  10px 10px 10px 20px;
     background-color: #784242;
 
 }
+.ImgBackground {
+    width: 100%;
+    height: 100%;
+    background-image: url("img/background.webp");
+    background-attachment: fixed;
+}
+
+.ImgAds {
+    margin-top: 30px;
+    text-align: center;
+    width: 170px;
+    height: 50%;
+    background-image: url("img/advProm.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ImgVipExperience {
+    margin-left: 50px;
+    width: 90%;
+    height: 60%;
+    background-image: url("img/vipExperience.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.custom-icon {
+    background-image: url("img/itemEvent.svg");
+    background-repeat: no-repeat; 
+    background-position: 4px 15px; 
+    background-size: 52px 52px; 
+    padding-top: 25px;
+    padding-left: 65px; 
+    padding-bottom: 46px;
+}
+
+.icon-link {
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    text-indent: -9999px;
+    overflow: hidden; 
+}
 
 
-/** Styles of the page contact.html **/
+/** Styles for the contact.html page **/
 
 
 .headerContact {

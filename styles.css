@@ -1,5 +1,6 @@
 * {
     font-family:"NunitoRegular";
+    margin:0;
 }
 
 .texto {
@@ -25,13 +26,13 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(7,  1fr);
-    grid-template-rows: repeat(9,  1fr);
+    grid-template-rows: repeat(19,  1fr);
 }
 
 
 .aside {
     background-color:#1d1717 ;
-    grid-row: 1 / 10; 
+    grid-row: 1 / 20; 
 }
 
 .section1 {
@@ -42,19 +43,19 @@
 .section2 {
     background-color: #897d7d;
     grid-column: 2/4;
-    grid-row: 2/10;
+    grid-row: 2/20;
 }
 
 .section3 {
     background-color: #552929;
     grid-column: 4/8;
-    grid-row: 2/6;
+    grid-row: 2/20;
 }
 
 .section4and5 {
     background-color: #ffffff;
     grid-column: 4/8;
-    grid-row: 6/10;
+    grid-row: 11/20;
 }
 
 .flex {
@@ -72,6 +73,66 @@
 }
 
 .flex-section5 {
+    background-color: #784242;
+
+}
+
+
+/** Styles of the page contact.html **/
+
+
+.headerContact {
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    height: 120px;
+    background-color: #4b3434;
+}
+
+.footerContact {
+    background-color: #4c3e3e;
+    height: 50px;
+}
+
+.gridContact {
+    display: grid;
+    grid-template-columns: repeat(12,  1fr);
+    height: 720px;
+}
+
+.sectionImg {
+    background-color: #ce8f66;
+    grid-column: 1/3;
+}
+
+.sectionMsg {
+    background-color: #c26e37;
+    grid-column: 3/7;
+}
+
+.sectionContact {
+    background-color: #c55e1a;
+    grid-column: 7/13;
+
+}
+
+.flexContact {
+    display:flex;
+    flex-direction: column;
+}
+
+
+.flex-img, .flex-description {
+    width: 100%;
+    height:50%;
+}
+
+.flex-img {
+    background-color: #271c1c;
+
+}
+
+.flex-description {
     background-color: #784242;
 
 }

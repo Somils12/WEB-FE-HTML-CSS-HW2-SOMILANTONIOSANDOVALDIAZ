@@ -10,10 +10,21 @@
 
 .tituloHeader {
     box-sizing: border-box;
-    padding-top: 60px;
+    padding-top: 40px;
     color: #fefefe;
     text-align: center;
     font-size: 70px;
+}
+
+.contactLink {
+    box-sizing: border-box;
+    margin-left: 75px;
+    padding-top: 70px;
+    padding-right: 25px;
+    font-weight: bold;
+    font-size: 22px;
+    color:#fff;
+    text-decoration: none;
 }
 
 .tituloAside {
@@ -25,6 +36,12 @@
     height: 160px;
 
 }
+
+.footer {
+    width: 100%;
+    height: 140px;
+
+}
 .separacion {
     margin: 25px;
 }
@@ -33,8 +50,30 @@
     background-color:#000000;
 }
 
+.espaciadoItems {
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.iconHeader {
+    width: 230px;
+    height: 100%;
+    text-align: center;
+    background-image: url("img/iconPage.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .footer {
     background-color: #000000;
+}
+
+.textFooter {
+    box-sizing: border-box;
+    padding-top: 100px;
+    text-align: center;
+    color:#fff;
+    font-size: 20px;
 }
 
 .grid {
@@ -110,8 +149,8 @@
 .flex-section4 {
     text-align: center;
     box-sizing: border-box;
-    padding:  10px 10px 10px 20px;
-    background-color: #4b3434;
+    padding:  120px 10px 10px 20px;
+    background-color: #00000069;
 
 }
 
@@ -119,7 +158,7 @@
     text-align: center;
     box-sizing: border-box;
     padding:  10px 10px 10px 20px;
-    background-color: #784242;
+    background-color: #0000002a;
 
 }
 .ImgBackground {

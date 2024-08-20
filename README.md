@@ -17,7 +17,7 @@ This project involves creating a website for a fictional nightclub called "Wel-T
 
 ### Main Page (`index.html`)
 
-The main page is structured using a combination of Grid and Flexbox to create a responsive and modern layout. It includes the following sections:
+The main page is structured using a combination of Grid and Flexbox to create a modern layout. It includes the following sections:
 
 - **Header**: Contains the club logo, the name of the club, and a link to the contact form.
 - **Aside**: A sidebar highlighting special promotions available at the club.

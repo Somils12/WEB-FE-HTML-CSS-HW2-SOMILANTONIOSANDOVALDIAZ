@@ -8,19 +8,38 @@
     <link rel="stylesheet" href="fonts.css">
 </head>
 <body>
-    <header>
-        <h1 class="headerContact">Formulario de contacto</h1>
+    <header class="displayFlex">
+        <h1 class="headerContact tituloHeader divLineHeaderContact">Contact form</h1>
+        <a class="linkHomeStyles" href="index.html">return to home</a>
     </header>
     <main class="gridContact">
-        <section class="sectionImg"><p class="texto">Imagenes de producto</p></section>
+        <section class="sectionImg ImgPromContact"><p>Receive a 25% discount on VIP admission today only!</p></section>
         <section class="flexContact sectionMsg">
-            <div class="flex-img"><p class="texto">imagen/p></div>
-            <div class="flex-description"><p class="texto">Descripcion</p></div>
+            <div class="flex-img ImgIconContact"></div>
+            <div class="flex-description"><p class="texto">Contact us!</p>
+            <p>Located in the heart of the city, WEL-TUB is the ultimate nightclub for those seeking a sophisticated and exclusive nightlife experience. 
+                <br>
+            If you have any questions, would like to book a VIP table or simply want to know more about our upcoming events, please do not hesitate to contact us. Our team will be happy to assist you.
+            </p>
+        </div>
         </section>
-        <section class="sectionContact"><p class="texto">formulario de contacto</p></section>
+        <section class="sectionContact">
+            <form class="formulario">
+                <p>First and last name</p>
+                <input class="inputStyles" type="text" placeholder="Full name" minlength="5" required>
+                <p>Email</p>
+                <input class="inputStyles" type="email" placeholder="Enter your email" required>
+                <p>Phone</p>
+                <input class="inputStyles" type="tel" placeholder="cell phone number" minlength="10" maxlength="12" required>
+                <p>Explain your requirement to us</p>
+                <input class="inputStyles descriptionField" type="text" placeholder="Reason for contact" minlength="20" maxlength="255" required>
+                <input type="submit" value="Send">
+            </form>
+
+        </section>
     </main>
     <footer class="footerContact">
-
+        <p>&copy; 2024 by Somil Sandoval Diaz. All rights reserved.</p>
     </footer>
 </body>
 </html>

@@ -3,6 +3,10 @@
     margin:0;
 }
 
+main {
+    background-color: #151515;
+}
+
 .texto {
     text-align: center;
     font-size: 30px;
@@ -223,11 +227,16 @@ ul {
     text-align: center;
     width: 100%;
     height: 120px;
-    background-color: #4b3434;
+    background-color: #151515;
 }
 
+
 .footerContact {
-    background-color: #4c3e3e;
+    box-sizing: border-box;
+    border: 30px transparent solid;
+    text-align: center;;
+    color: #cdd1ba;
+    background-color: #151515;
     height: 50px;
 }
 
@@ -238,7 +247,12 @@ ul {
 }
 
 .sectionImg {
-    background-color: #ce8f66;
+    box-sizing: border-box;
+    padding: 250px 50px 50px 50px;
+    color: #c5cec2;
+    text-align: center;
+    font-weight: bold;
+    background-color: #151515;
     grid-column: 1/3;
 }
 
@@ -248,10 +262,27 @@ ul {
 }
 
 .sectionContact {
-    background-color: #c55e1a;
+    background-color: #151515;
     grid-column: 7/13;
+    border-left:60px transparent solid;
+    color:#fff;
+    font-size:25px;
+    padding-top: 100px;
 
 }
+
+.inputStyles {
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    color:#fefefe;
+    width: 450px;
+    border: none; 
+    border-bottom: 2px solid #494646; 
+    outline: none;
+    padding: 8px 0; 
+    background-color: transparent;
+}
+
 
 .flexContact {
     display:flex;
@@ -265,11 +296,77 @@ ul {
 }
 
 .flex-img {
-    background-color: #271c1c;
+    background-color: #151515;
 
 }
 
 .flex-description {
-    background-color: #784242;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 30px;
+    color: #9aa695;
+    background-color: #151515;
 
 }
+
+.ImgIconContact {
+    box-sizing: border-box;
+    border-top: 190px transparent solid;
+    width: 100%;
+    height: 50%;
+    background-image: url("img/iconPage.webp");
+    background-size:350px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ImgPromContact {
+    border-top: 200px transparent solid;
+    border-left: 20px transparent solid;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50%;
+    background-image: url("img/PromImgContact.webp");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.displayFlex {
+    display: flex;
+    flex-direction: column;
+}
+.linkHomeStyles {
+    text-align:center;
+    background-color: #151515;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 22px;
+    color:#e5f599;
+    text-decoration: none;
+}
+.descriptionField {
+    text-align: justify;
+    height: 150px;
+    border: 2px solid #494646;
+}
+
+input[type="submit"] {
+    margin-left: 165px;
+    width: 100px;
+    padding: 10px 20px; 
+    border: 2px solid #007BFF; 
+    border-radius: 5px; 
+    background-color: #007BFF; 
+    color: #fff;
+    font-size: 16px; 
+    font-weight: bold;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+}
+
+
